@@ -1,0 +1,8 @@
+﻿<div>
+    <h2>Регистрация нового пользователя</h2>
+    <user-form [(user)]="user"></user-form>
+    <div class="form-group">
+        <input type="button" value="Зарегистрировать" (click)="save()" class="btn btn-success" />
+        <a routerLink="/" class="btn btn-warning">Отмена</a>
+    </div>
+</div>
